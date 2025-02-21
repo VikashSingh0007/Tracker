@@ -4,7 +4,7 @@ import { io } from 'socket.io-client';
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from 'recharts';
 
 // Connect to Socket.io server
-const socket = io('http://localhost:4000');
+const socket = io('https://tracker-w7pa.onrender.com');
 
 const DetailedCpuMetrics = () => {
   const [cpuMetrics, setCpuMetrics] = useState([]);

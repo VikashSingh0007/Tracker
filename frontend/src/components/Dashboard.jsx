@@ -6,7 +6,7 @@ import CpuUsageGraph from './CpuUsageGraph';
 import DetailedCpuMetrics from './DetailedCpuMetrics';
 import ProcessMonitoring from './ProcessMonitoring';
 // Connect to Socket.io server
-const socket = io('http://localhost:4000', {
+const socket = io('https://tracker-w7pa.onrender.com', {
   transports: ['websocket', 'polling'], // Ensures compatibility
 });
 

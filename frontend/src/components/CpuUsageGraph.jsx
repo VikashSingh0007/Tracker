@@ -12,7 +12,7 @@ import {
 import { io } from 'socket.io-client';
 
 // Connect to Socket.io server
-const socket = io('http://localhost:4000');
+const socket = io('https://tracker-w7pa.onrender.com');
 
 const CpuUsageGraph = () => {
   const [cpuData, setCpuData] = useState([]);
